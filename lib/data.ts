@@ -1,18 +1,18 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'saadbains123786@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Saad, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+    oldPortfolio: 'https://saad-bains-portfolio.netlify.app/',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
+    { name: 'github', url: 'https://github.com/bainnss' },
+    { name: 'linkedin', url: 'https://github.com/bainnss' },
+    { name: 'facebook', url: 'https://www.facebook.com/' },
     { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 
@@ -64,14 +64,14 @@ export const MY_STACK = {
             name: 'Node.js',
             icon: '/logo/node.png',
         },
-        {
-            name: 'Nest.js',
-            icon: '/logo/nest.svg',
-        },
-        {
-            name: 'Express.js',
-            icon: '/logo/express.png',
-        },
+        // {
+        //     name: 'Nest.js',
+        //     icon: '/logo/nest.svg',
+        // },
+        // {
+        //     name: 'Express.js',
+        //     icon: '/logo/express.png',
+        // },
     ],
     database: [
         {
@@ -255,7 +255,8 @@ export const PROJECTS: IProject[] = [
             '/projects/images/consulting-finance-2.png',
             '/projects/images/consulting-finance-3.png',
         ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
+        sourceCode: 'https://github.com/bainnss',
+        // sourceCode: 'https://github.com/Tajmirul/crenotive',
         liveUrl: 'https://crenotive.netlify.app/',
         year: 2023,
         description:

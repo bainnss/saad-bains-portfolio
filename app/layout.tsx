@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Anton, Roboto_Flex } from 'next/font/google';
+import { Anton, Inter } from 'next/font/google';
 import { ReactLenis } from 'lenis/react';
 
 import 'lenis/dist/lenis.css';
@@ -13,6 +13,12 @@ import Preloader from '../components/Preloader';
 import StickyEmail from './_components/StickyEmail';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
+// const antonFont = Inter({
+//     weight: '400',
+//     style: 'normal',
+//     subsets: ['latin'],
+//     variable: '--font-anton',
+// });
 const antonFont = Anton({
     weight: '400',
     style: 'normal',
@@ -20,7 +26,7 @@ const antonFont = Anton({
     variable: '--font-anton',
 });
 
-const robotoFlex = Roboto_Flex({
+const robotoFlex = Inter({
     weight: ['100', '400', '500', '600', '700', '800'],
     style: 'normal',
     subsets: ['latin'],
@@ -28,8 +34,8 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-    title: 'Portfolio - Tajmirul Islam',
-    description: 'Personal portfolio of Tajmirul Islam',
+    title: 'Portfolio - Saad Bains',
+    description: 'Personal portfolio of Saad Bains',
 };
 
 export default function RootLayout({

@@ -53,7 +53,7 @@ const Preloader = () => {
             <div className="preloader-item h-full w-[10%] bg-black"></div>
             <div className="preloader-item h-full w-[10%] bg-black"></div>
 
-            <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
+            {/* <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
                 <span className="inline-block translate-y-full">T</span>
                 <span className="inline-block translate-y-full">A</span>
                 <span className="inline-block translate-y-full">J</span>
@@ -62,6 +62,28 @@ const Preloader = () => {
                 <span className="inline-block translate-y-full">R</span>
                 <span className="inline-block translate-y-full">U</span>
                 <span className="inline-block translate-y-full">L</span>
+            </p> */}
+            <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
+                <span className="inline-block translate-y-full">S</span>
+                <span className="inline-block translate-y-full">A</span>
+                <span className="inline-block translate-y-full">A</span>
+                <span className="inline-block translate-y-full">D</span>
+                &nbsp;
+                <span className="inline-block translate-y-full text-primary">
+                    B
+                </span>
+                <span className="inline-block translate-y-full text-primary">
+                    A
+                </span>
+                <span className="inline-block translate-y-full text-primary">
+                    I
+                </span>
+                <span className="inline-block translate-y-full text-primary">
+                    N
+                </span>
+                <span className="inline-block translate-y-full text-primary">
+                    S
+                </span>
             </p>
         </div>
     );
