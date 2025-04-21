@@ -20,7 +20,7 @@ const CustomCursor = () => {
                 x: clientX,
                 y: clientY,
                 ease: 'power2.out',
-                duration: 0.25,
+                duration: 0.15,
                 opacity: 1,
             });
         }) as any;
@@ -34,7 +34,7 @@ const CustomCursor = () => {
 
     return (
         <svg
-            width="27"
+            width="17"
             height="30"
             viewBox="0 0 27 30"
             className="hidden md:block fixed top-0 left-0 opacity-0 z-[50] pointer-events-none" // -translate-x-1/2 -translate-y-1/2

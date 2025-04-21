@@ -83,7 +83,7 @@ const Skills = () => {
                                                 alt={item.name}
                                                 width="40"
                                                 height="40"
-                                                className="max-h-10"
+                                                className="max-h-10 object-contain"
                                             />
                                         </div>
                                         <span className="text-2xl capitalize">
