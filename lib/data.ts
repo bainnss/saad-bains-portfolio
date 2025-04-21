@@ -115,7 +115,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'DRX Salon',
         slug: 'drx-salon',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        liveUrl: 'https://drx-salon.netlify.app/',
         year: 2023,
         description: `
       A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
@@ -159,8 +159,8 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/mti.png',
         longThumbnail: '/projects/long/mti',
         images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/drx-salon-2.png',
+            '/projects/long/drx-salon.jpeg',
         ],
     },
     // {
