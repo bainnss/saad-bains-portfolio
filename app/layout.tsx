@@ -66,6 +66,7 @@ export default function RootLayout({
                     <ScrollProgressIndicator />
                     <ParticleBackground />
                     <StickyEmail />
+                    <Analytics />
                 </ReactLenis>
             </body>
         </html>
