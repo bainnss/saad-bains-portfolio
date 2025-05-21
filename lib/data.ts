@@ -118,49 +118,82 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://drx-salon.netlify.app/',
         year: 2023,
         description: `
-      A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
+      A modern and responsive salon website crafted to elevate the online presence of a beauty brand <br/> <br/>
       Key Features:<br/>
       <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
+        <li>💈 Grooming Services Showcase: Clean and interactive layout highlighting professional haircut and grooming offerings</li>
+        <li>💵 Pricing Section: Transparent, well-structured pricing display to help users explore packages easily</li>
+        <li>🗣️ Testimonials: Real customer feedback carousel to build credibility and engagement</li>
+        <li>📱 Fully Responsive: Fluid layout optimized for mobile, tablet, and desktop screens</li>
+        <li>⚡ Lightweight & Fast: Built without frameworks for faster load times and better performance</li>
       </ul><br/>
       Technical Highlights:
       <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
+        <li>Created responsive service cards and pricing tables using flexbox and grid</li>
+        <li>Implemented interactive testimonial carousel using vanilla JavaScript</li>
+        <li>Wrote modular and reusable CSS classes for design consistency and scalability</li>
+        <li>Optimized images and assets for fast loading across all devices</li>
       </ul>
       `,
         role: `
       Full-Stack Developer <br/>
       Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
+      <ul> 
+        <li>🎨 Frontend: Hand-coded UI using semantic HTML, modern CSS (Flexbox & Grid), and vanilla JavaScript</li> 
+        <li>📱 Responsiveness: Built fully responsive layouts manually without any frameworks</li> 
+        <li>🧠 Interactivity: Added dynamic behavior (like sliders and testimonials) using custom JavaScript</li>
+        <li>🖼️ Media Optimization: Compressed images and used lazy loading for faster load times</li>
+        <li>🚀 Deployment: Hosted on GitHub Pages with custom domain integration</li> <li>🧩 Third-Party Integration: Used a lightweight JavaScript slider library for testimonials section</li> 
       </ul>
       `,
-        techStack: [
-            'HTML',
-            'CSS',
-            'Javascript',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
-        ],
+        techStack: ['HTML', 'CSS', 'Javascript', 'Netfliy'],
         thumbnail: '/projects/thumbnail/mti.png',
-        longThumbnail: '/projects/long/mti',
+        longThumbnail: '/projects/long/drx-salon',
         images: [
             '/projects/images/drx-salon-2.png',
-            '/projects/long/drx-salon.jpeg',
+            '/projects/long/drx-salon-1.jpeg',
+        ],
+    },
+    {
+        title: 'Perfect Enterprises',
+        slug: 'perfect-ent',
+        liveUrl: 'https://drx-salon.netlify.app/',
+        year: 2023,
+        description: `
+      A modern and responsive salon website crafted to elevate the online presence of a beauty brand <br/> <br/>
+      Key Features:<br/>
+      <ul>
+        <li>💈 Grooming Services Showcase: Clean and interactive layout highlighting professional haircut and grooming offerings</li>
+        <li>💵 Pricing Section: Transparent, well-structured pricing display to help users explore packages easily</li>
+        <li>🗣️ Testimonials: Real customer feedback carousel to build credibility and engagement</li>
+        <li>📱 Fully Responsive: Fluid layout optimized for mobile, tablet, and desktop screens</li>
+        <li>⚡ Lightweight & Fast: Built without frameworks for faster load times and better performance</li>
+      </ul><br/>
+      Technical Highlights:
+      <ul>
+        <li>Created responsive service cards and pricing tables using flexbox and grid</li>
+        <li>Implemented interactive testimonial carousel using vanilla JavaScript</li>
+        <li>Wrote modular and reusable CSS classes for design consistency and scalability</li>
+        <li>Optimized images and assets for fast loading across all devices</li>
+      </ul>
+      `,
+        role: `
+      Full-Stack Developer <br/>
+      Owned the entire development lifecycle:
+      <ul> 
+        <li>🎨 Frontend: Hand-coded UI using semantic HTML, modern CSS (Flexbox & Grid), and vanilla JavaScript</li> 
+        <li>📱 Responsiveness: Built fully responsive layouts manually without any frameworks</li> 
+        <li>🧠 Interactivity: Added dynamic behavior (like sliders and testimonials) using custom JavaScript</li>
+        <li>🖼️ Media Optimization: Compressed images and used lazy loading for faster load times</li>
+        <li>🚀 Deployment: Hosted on GitHub Pages with custom domain integration</li> <li>🧩 Third-Party Integration: Used a lightweight JavaScript slider library for testimonials section</li> 
+      </ul>
+      `,
+        techStack: ['HTML', 'CSS', 'Javascript', 'Netfliy'],
+        thumbnail: '/projects/thumbnail/perfect-ent.png',
+        longThumbnail: '/projects/long/perfect-ent.png',
+        images: [
+            '/projects/images/drx-salon-2.png',
+            '/projects/long/drx-salon-1.jpeg',
         ],
     },
     // {
