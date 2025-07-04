@@ -196,36 +196,36 @@ export const PROJECTS: IProject[] = [
             '/projects/long/drx-salon-1.jpeg',
         ],
     },
-    // {
-    //     title: 'Epikcart',
-    //     slug: 'epikcart',
-    //     techStack: [
-    //         'React',
-    //         'Redux',
-    //         'React i18n',
-    //         'Tailwind CSS',
-    //         'Framer Motion',
-    //         'debouncing',
-    //         'Api Integration',
-    //     ],
-    //     thumbnail: '/projects/thumbnail/epikcart.jpg',
-    //     longThumbnail: '/projects/long/epikcart.jpg',
-    //     images: [
-    //         '/projects/images/epikcart-1.png',
-    //         '/projects/images/epikcart-2.png',
-    //         '/projects/images/epikcart-3.png',
-    //         '/projects/images/epikcart-4.png',
-    //         '/projects/images/epikcart-5.png',
-    //     ],
-    //     liveUrl: 'https://demo.epikcart.siphertech.com/',
-    //     year: 2023,
-    //     description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-    //     role: `As the frontend developer in a team of five, I: <br/>
-    //     - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-    //     - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-    //     - Integrated multi-language support with React i18n, including RTL handling.<br/>
-    //     - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
-    // },
+    {
+        title: 'S.Enterprises',
+        slug: 'senterprises',
+        techStack: [
+            'HTML',
+            'CSS',
+            'Javascript',
+            'Netlify',
+            'Performance Optimisation',
+            'Lighthouse',
+            'SEO',
+        ],
+        thumbnail: '/projects/thumbnail/senterprises.jpeg',
+        longThumbnail: '/projects/long/epikcart.jpg',
+        images: [
+            '/projects/images/senterprises-1.png',
+            '/projects/images/epikcart-2.png',
+            '/projects/images/epikcart-3.png',
+            '/projects/images/epikcart-4.png',
+            '/projects/images/epikcart-5.png',
+        ],
+        liveUrl: 'https://demo.epikcart.siphertech.com/',
+        year: 2023,
+        description: `A sleek and user-centric construction website built to showcase services, portfolio, and contact information — fully aligned with modern UX principles.`,
+        role: `Owned the complete development process:, I: <br/>
+        - 🎨 Frontend: Hand-coded interface using semantic HTML and modern CSS<br/>
+        - 📱 Responsive Design: Built mobile-first layouts with media queries and CSS techniques<br/>
+        - 🧠 JavaScript Interactivity: Implemented dynamic elements without external libraries<br/>
+        - 🖼️ Asset Optimization: Compressed media and applied lazy loading for speed.`,
+    },
     // {
     //     title: 'Resume Roaster',
     //     slug: 'resume-roaster',
