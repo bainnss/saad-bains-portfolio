@@ -150,8 +150,8 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/mti.png',
         longThumbnail: '/projects/long/drx-salon',
         images: [
-            '/projects/images/drx-salon-2.png',
-            '/projects/long/drx-salon-1.jpeg',
+            '/projects/images/drx/drx-salon-2.png',
+            '/projects/images/drx/drx-salon-1.jpeg',
         ],
     },
     {
@@ -192,8 +192,8 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/perfect-ent.png',
         longThumbnail: '/projects/long/perfect-ent.png',
         images: [
-            '/projects/images/drx-salon-2.png',
-            '/projects/long/drx-salon-1.jpeg',
+            '/projects/images/perfect-enterprises/perfect-1.jpeg',
+            '/projects/images/perfect-enterprises/perfect-2.jpeg',
         ],
     },
     {
@@ -211,11 +211,9 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/senterprises.jpeg',
         longThumbnail: '/projects/long/epikcart.jpg',
         images: [
-            '/projects/images/senterprises-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/senterprises/senterprises-1.png',
+            '/projects/images/senterprises/senterprises-2.jpeg',
+            '/projects/images/senterprises/senterprises-3.jpeg',
         ],
         liveUrl: 'https://demo.epikcart.siphertech.com/',
         year: 2023,
@@ -226,32 +224,32 @@ export const PROJECTS: IProject[] = [
         - 🧠 JavaScript Interactivity: Implemented dynamic elements without external libraries<br/>
         - 🖼️ Asset Optimization: Compressed media and applied lazy loading for speed.`,
     },
-    // {
-    //     title: 'Resume Roaster',
-    //     slug: 'resume-roaster',
-    //     techStack: [
-    //         'GPT-4',
-    //         'Next.js',
-    //         'Postgressql',
-    //         'Prisma',
-    //         'Tailwind CSS',
-    //     ],
-    //     thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-    //     longThumbnail: '/projects/long/resume-roaster.jpg',
-    //     images: [
-    //         '/projects/images/resume-roaster-1.png',
-    //         '/projects/images/resume-roaster-2.png',
-    //         '/projects/images/resume-roaster-3.png',
-    //     ],
-    //     liveUrl: 'https://resume-roaster.vercel.app/',
-    //     year: 2023,
-    //     description:
-    //         'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-    //     role: `As the sole developer and business owner, I:<br/>
-    //     - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-    //     - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-    //     - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
-    // },
+    {
+        title: 'Luxury Trading LLC',
+        slug: 'luxury-trading',
+        techStack: [
+            'GPT-4',
+            'Next.js',
+            'Postgressql',
+            'Prisma',
+            'Tailwind CSS',
+        ],
+        thumbnail: '/projects/thumbnail/luxury-trd.jpeg',
+        longThumbnail: '/projects/long/resume-roaster.jpg',
+        images: [
+            '/projects/images/resume-roaster-1.png',
+            '/projects/images/resume-roaster-2.png',
+            '/projects/images/resume-roaster-3.png',
+        ],
+        liveUrl: 'https://resume-roaster.vercel.app/',
+        year: 2023,
+        description:
+            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
+        role: `As the sole developer and business owner, I:<br/>
+        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
+        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
+        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+    },
     // {
     //     title: 'Real Estate',
     //     slug: 'property-pro',
